@@ -50,6 +50,7 @@ let customTheme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
+          padding: 12,
           borderRadius: 0,
         },
       },
