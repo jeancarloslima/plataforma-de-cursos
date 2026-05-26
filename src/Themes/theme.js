@@ -4,7 +4,7 @@ let customTheme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#6200ea",
+      main: "#A9AB8E",
       light: "#9d46ff",
       dark: "#0a00b6",
       contrastText: "#ffffff",

@@ -1,7 +1,10 @@
 import { ThemeProvider } from "@emotion/react";
 import customTheme from "../../Themes/theme";
-import { Box, Button, CssBaseline, Link, Typography } from "@mui/material";
+import { Box, Button, CssBaseline, Link, List, Typography } from "@mui/material";
 import { PlayCircle } from "@mui/icons-material";
+import estudanteImg from "../../Assets/images/estudante.png";
+
+const logos = ['Microsoft'];
 
 export default function Hero() {
   return (
@@ -37,6 +40,10 @@ export default function Hero() {
             <Typography variant="body1">O que é Rawi?</Typography>
           </Box>
         </Box>
+        <Box component="img" src={estudanteImg} sx={{ mt: '-80px' }}></Box>
+        <List>
+          
+        </List>
       </Box>
     </ThemeProvider>
   );
