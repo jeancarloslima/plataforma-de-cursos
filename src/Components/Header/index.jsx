@@ -32,8 +32,8 @@ export default function Header() {
 
       <AppBar position="sticky">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            TechLearning
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: '700' }}>
+            Rawi
           </Typography>
 
           <IconButton
@@ -74,7 +74,7 @@ export default function Header() {
             {itemsMenu.map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
-                  <ListItemText primary={text} />
+                  <ListItemText primary={text} slotProps={{ primary: { color: "primary", sx: { fontWeight: '700' } } } } />
                 </ListItemButton>
               </ListItem>
             ))}
