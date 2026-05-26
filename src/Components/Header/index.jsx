@@ -30,8 +30,8 @@ export default function Header() {
     <ThemeProvider theme={customTheme}>
       <CssBaseline />
 
-      <AppBar position="sticky">
-        <Toolbar>
+      <AppBar position="sticky" elevation={0}>
+        <Toolbar >
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: '700' }}>
             Rawi
           </Typography>
@@ -49,12 +49,12 @@ export default function Header() {
 
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             {itemsMenu.map((text) => (
-              <Button key={text} sx={{ color: "#FFF" }}>
+              <Button key={text} sx={{ color: "#333333" }}>
                 {text}
               </Button>
             ))}
-            <Button sx={{ color: "#FFF" }}>Login</Button>
-            <Button sx={{ color: "#FFF" }}>Register</Button>
+            <Button sx={{ color: "#333333" }}>Login</Button>
+            <Button sx={{ color: "#333333" }}>Register</Button>
           </Box>
         </Toolbar>
       </AppBar>
