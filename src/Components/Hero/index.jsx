@@ -24,70 +24,80 @@ export default function Hero() {
     <ThemeProvider theme={customTheme}>
       <CssBaseline />
 
-      <Box>
+      <Box
+        sx={{
+          maxWidth: { xs: "600px", md: "1000px" },
+          minHeight: "100dvh",
+        }}
+      >
         <Box
           sx={{
-            maxWidth: { xs: "600px", md: "1000px" },
-            minHeight: "100dvh",
             display: "flex",
             flexDirection: "column",
-            gap: "1.5rem",
             margin: "0 auto",
-            padding: '24px 32px 0 32px',
+            padding: "24px 32px 0 32px",
           }}
         >
-          <Typography
-            variant="h3"
-            sx={{ textAlign: { xs: "center", md: "left" } }}
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "1.5rem",
+            }}
           >
-            Desenvolva suas habilidades de um jeito novo e único
-          </Typography>
-          <Typography
-            variant="body2"
-            sx={{ textAlign: { xs: "center", md: "left" } }}
-          >
-            Explore um método transformativo de desenvolver habilidades na nossa
-            plataforma de ensino online. Descubra um novo reino de experiências
-            de aprendizado e eleve seu conhecimento de formas únicas.
-          </Typography>
-          <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-            <Button variant="contained">Começar agora</Button>
-            <Box
-              component={Link}
-              href="#"
-              color="grey.800"
-              sx={{ display: "flex", alignItems: "center", gap: 1 }}
+            <Typography
+              variant="h3"
+              sx={{ textAlign: { xs: "center", md: "left" } }}
             >
-              <PlayCircle />
-              <Typography variant="body1">O que é Rawi?</Typography>
+              Desenvolva suas habilidades de um jeito novo e único
+            </Typography>
+            <Typography
+              variant="body2"
+              sx={{ textAlign: { xs: "center", md: "left" } }}
+            >
+              Explore um método transformativo de desenvolver habilidades na
+              nossa plataforma de ensino online. Descubra um novo reino de
+              experiências de aprendizado e eleve seu conhecimento de formas
+              únicas.
+            </Typography>
+            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+              <Button variant="contained">Começar agora</Button>
+              <Box
+                component={Link}
+                href="#"
+                color="grey.800"
+                sx={{ display: "flex", alignItems: "center", gap: 1 }}
+              >
+                <PlayCircle />
+                <Typography variant="body1">O que é Rawi?</Typography>
+              </Box>
             </Box>
           </Box>
-          <Box component="img" src={estudanteImg} sx={{ mt: "-80px" }}></Box>
+          <Box component="img" src={estudanteImg}></Box>
         </Box>
 
         <List
           sx={{
             display: "flex",
             flexDirection: "row",
-            alignItems: 'center',
-            justifyContent: 'space-evenly',
+            alignItems: "center",
+            justifyContent: "space-evenly",
             bgcolor: "primary.main",
-            mt: "-44px",
           }}
         >
-          <ListItem sx={{ maxWidth: '30px', justifyContent: 'center' }}>
+          <ListItem sx={{ maxWidth: "30px", justifyContent: "center" }}>
             <Microsoft color="secondary" />
           </ListItem>
-          <ListItem sx={{ maxWidth: '30px', justifyContent: 'center' }}>
+          <ListItem sx={{ maxWidth: "30px", justifyContent: "center" }}>
             <Facebook color="secondary" />
           </ListItem>
-          <ListItem sx={{ maxWidth: '30px', justifyContent: 'center' }}>
+          <ListItem sx={{ maxWidth: "30px", justifyContent: "center" }}>
             <Apple color="secondary" />
           </ListItem>
-          <ListItem sx={{ maxWidth: '30px', justifyContent: 'center' }}>
+          <ListItem sx={{ maxWidth: "30px", justifyContent: "center" }}>
             <Google color="secondary" />
           </ListItem>
-          <ListItem sx={{ maxWidth: '30px', justifyContent: 'center' }}>
+          <ListItem sx={{ maxWidth: "30px", justifyContent: "center" }}>
             <Instagram color="secondary" />
           </ListItem>
         </List>

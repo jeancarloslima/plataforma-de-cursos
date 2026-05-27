@@ -2,18 +2,15 @@ import {
   AppBar,
   Box,
   Button,
-  CssBaseline,
   Drawer,
   IconButton,
   List,
   ListItem,
   ListItemButton,
   ListItemText,
-  ThemeProvider,
   Toolbar,
   Typography,
 } from "@mui/material";
-import customTheme from "../../Themes/theme";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -27,9 +24,7 @@ export default function Header() {
   const itemsMenu = ["Cursos", "Preços", "Comunidade"];
 
   return (
-    <ThemeProvider theme={customTheme}>
-      <CssBaseline />
-
+    <>
       <AppBar position="sticky" elevation={0}>
         <Toolbar >
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: '700' }}>
@@ -81,6 +76,6 @@ export default function Header() {
           </List>
         </Box>
       </Drawer>
-    </ThemeProvider>
+    </>
   );
 }
