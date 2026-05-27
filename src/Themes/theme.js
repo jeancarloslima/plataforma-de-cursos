@@ -4,13 +4,13 @@ let customTheme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#A9AB8E",
+      main: "#5ca047",
       light: "#9d46ff",
       dark: "#0a00b6",
       contrastText: "#ffffff",
     },
     secondary: {
-      main: "#03dac6",
+      main: "#f4f5f7",
       contrastText: "#000000",
     },
     background: {
@@ -19,7 +19,7 @@ let customTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Poppins", "Roboto", "Helvetica", "Arial", sans-serif',
     h4: {
       fontWeight: 700,
       color: "#333333",
@@ -52,7 +52,7 @@ let customTheme = createTheme({
         root: {
           backgroundColor: "#f4f5f7",
           color: "#333333",
-          padding: 12,
+          padding: '6px 0px',
           borderRadius: 0,
         },
       },
