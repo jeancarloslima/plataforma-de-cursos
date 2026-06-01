@@ -4,6 +4,7 @@ import Header from "../../Components/Header";
 import Hero from "../../Components/Hero";
 import customTheme from "../../Themes/theme";
 import { CssBaseline } from "@mui/material";
+import PopularCoursesLandingPage from "../../Components/PopularCoursesLandingPage";
 
 export default function LandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
       <Header />
       <Hero />
       <BenefitsLandingPage />
+      <PopularCoursesLandingPage />
     </ThemeProvider>
   );
 }
