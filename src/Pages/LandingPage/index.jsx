@@ -6,6 +6,7 @@ import customTheme from "../../Themes/theme";
 import { CssBaseline } from "@mui/material";
 import PopularCoursesLandingPage from "../../Components/PopularCoursesLandingPage";
 import TestimonialsLandingPage from "../../Components/TestimonialsLandingPage";
+import Footer from "../../Components/Footer";
 
 export default function LandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
       <BenefitsLandingPage />
       <PopularCoursesLandingPage />
       <TestimonialsLandingPage />
+      <Footer />
     </ThemeProvider>
   );
 }
