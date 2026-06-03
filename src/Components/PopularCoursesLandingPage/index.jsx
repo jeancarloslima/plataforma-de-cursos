@@ -1,4 +1,5 @@
 import { List, ListItem, Typography } from "@mui/material";
+import CourseCard from "../CourseCard";
 
 export default function PopularCoursesLandingPage() {
   return (
@@ -11,6 +12,7 @@ export default function PopularCoursesLandingPage() {
       </Typography>
       <List>
         <ListItem>
+          <CourseCard />
         </ListItem>
       </List>
     </>
