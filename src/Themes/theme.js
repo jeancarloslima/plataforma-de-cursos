@@ -22,7 +22,6 @@ let customTheme = createTheme({
     fontFamily: '"Poppins", "Roboto", "Helvetica", "Arial", sans-serif',
     h4: {
       fontWeight: 700,
-      color: "#333333",
     },
     button: {
       fontWeight: 600,
