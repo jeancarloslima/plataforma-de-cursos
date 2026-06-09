@@ -19,10 +19,7 @@ let customTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Poppins", "Roboto", "Helvetica", "Arial", sans-serif',
-    button: {
-      fontWeight: 600,
-    },
+    fontFamily: '"Poppins", "Roboto", "Helvetica", "Arial", sans-serif'
   },
   components: {
     MuiButton: {
