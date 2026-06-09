@@ -25,7 +25,7 @@ let customTheme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: 8,
+          borderRadius: 6,
           textTransform: "none",
           padding: "10px 14px",
         },
