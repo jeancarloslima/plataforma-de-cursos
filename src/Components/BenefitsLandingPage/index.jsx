@@ -21,7 +21,7 @@ export default function BenefitsLandingPage() {
         display: "flex",
         flexDirection: "column",
         margin: "0 auto",
-        padding: "24px 32px",
+        padding: "24px",
       }}
     >
       <Box
@@ -62,7 +62,7 @@ export default function BenefitsLandingPage() {
       >
         <Box component="img" src={estudanteImg}></Box>
         <Box>
-          <Typography variant="h6">
+          <Typography variant="h5">
             Benefícios do nosso aprendizado online
           </Typography>
           <List>

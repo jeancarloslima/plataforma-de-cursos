@@ -5,7 +5,7 @@ let customTheme = createTheme({
     mode: "light",
     primary: {
       main: "#234718",
-      light: "#a5f78c",
+      light: "#89d871",
       dark: "#62df40",
       contrastText: "#ffffff",
     },
@@ -57,6 +57,13 @@ let customTheme = createTheme({
         },
       },
     },
+    MuiListItem: {
+      styleOverrides: {
+        root: {
+          padding: "12px 0",
+        }
+      }
+    }
   },
 });
 
