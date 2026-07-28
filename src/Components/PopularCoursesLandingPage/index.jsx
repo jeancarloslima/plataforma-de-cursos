@@ -10,12 +10,12 @@ export default function PopularCoursesLandingPage() {
         display: "flex",
         flexDirection: "column",
         margin: "0 auto",
-        padding: "24px",
+        padding: "32px 24px",
         bgcolor: "primary.main",
         color: "secondary.main"
       }}
     >
-      <Typography variant="h5" align="center" sx={{ marginBottom: '16px' }}>Nossos cursos populares</Typography>
+      <Typography variant="h5" align="center" sx={{ fontWeight: "600", marginBottom: '16px' }}>Nossos cursos populares</Typography>
       <Typography variant="body2" align="center">
         Descubra nossos cursos mais procurados, curados de forma cuidadosa para
         atender as demandas do mercado atual. Mergulhe em conteúdos construídos

@@ -12,9 +12,19 @@ export default function CourseCard({
   professor,
 }) {
   return (
-    <Card>
+    <Card sx={{ maxWidth: "330px" }}>
       <CardMedia component="img" alt={image} />
-      <CardContent sx={{ padding: 0 }}>
+      <CardContent
+        sx={{
+          padding: 0,
+          display: "flex",
+          flexDirection: "column",
+          gap: "24px",
+          '&:last-child': {
+            paddingBottom: 0,
+          }
+        }}
+      >
         <Box
           sx={{
             display: "flex",
@@ -53,7 +63,7 @@ export default function CourseCard({
           </Box>
         </Box>
 
-        <Typography variant="h5" sx={{ fontWeight: "600", maxWidth: "200px", margin: "24px 0" }}>
+        <Typography variant="h5" sx={{ fontWeight: "600", maxWidth: "200px" }}>
           {title}
         </Typography>
 
@@ -61,7 +71,7 @@ export default function CourseCard({
           sx={{
             display: "flex",
             alignItems: "center",
-            gap: 2
+            gap: 2,
           }}
         >
           <Box sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
@@ -75,8 +85,12 @@ export default function CourseCard({
         </Box>
 
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h6">{price}.00</Typography>
-          <Typography variant="h6">{professor}</Typography>
+          <Typography variant="h6" sx={{ fontWeight: "600" }}>
+            ${price}.00
+          </Typography>
+          <Typography variant="body1" sx={{ fontWeight: "600", color: "primary.main" }}>
+            {professor}
+          </Typography>
         </Box>
       </CardContent>
     </Card>
