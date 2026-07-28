@@ -14,35 +14,63 @@ export default function CourseCard({
   return (
     <Card>
       <CardMedia component="img" alt={image} />
-      <CardContent>
-        <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+      <CardContent sx={{ padding: 0 }}>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Box
+            sx={{
+              bgcolor: "primary.light",
+              display: "flex",
+              alignItems: "center",
+              gap: 1,
+              padding: "1px 8px",
+              borderRadius: "4px",
+            }}
+          >
             <Circle color="primary" sx={{ fontSize: 10 }} />
-            <Typography variant="h6">{theme}</Typography>
+            <Typography variant="body1">{theme}</Typography>
           </Box>
+
           <Box
             sx={{
               bgcolor: "primary.main",
               display: "flex",
               alignItems: "center",
               gap: 1,
+              padding: "1px 8px",
+              borderRadius: "4px",
             }}
           >
-            <Star sx={{ color: "yellow" }} />
-            <Typography variant="h6">{rating}</Typography>
+            <Star sx={{ color: "yellow", fontSize: 16 }} />
+            <Typography variant="body1" sx={{ color: "secondary.main" }}>
+              {rating}
+            </Typography>
           </Box>
         </Box>
 
-        <Typography variant="h5" sx={{ maxWidth: "200px" ,margin: "16px 0" }}>{title}</Typography>
+        <Typography variant="h5" sx={{ fontWeight: "600", maxWidth: "200px", margin: "24px 0" }}>
+          {title}
+        </Typography>
 
-        <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 2
+          }}
+        >
+          <Box sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
             <Book color="primary" sx={{ fontSize: 20 }} />
-            <Typography variant="h6">{classes} classes</Typography>
+            <Typography variant="body1">{classes} classes</Typography>
           </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
             <Person color="primary" sx={{ fontSize: 20 }} />
-            <Typography variant="h6">{students} students</Typography>
+            <Typography variant="body1">{students} students</Typography>
           </Box>
         </Box>
 

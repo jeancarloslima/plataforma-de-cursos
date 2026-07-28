@@ -32,22 +32,22 @@ export default function PopularCoursesLandingPage() {
           professor="J. Morgan"
         ></CourseCard>
         <CourseCard
-          theme="Web Design"
-          rating={4.9}
-          title="Web Design & Development"
-          classes={25}
-          students={185}
-          price={560}
-          professor="J. Morgan"
+          theme="UI/UX Design"
+          rating={5}
+          title="Wireframing & Prototyping"
+          classes={8}
+          students={400}
+          price={160}
+          professor="Jordan Re"
         ></CourseCard>
         <CourseCard
-          theme="Web Design"
+          theme="Data Science"
           rating={4.9}
-          title="Web Design & Development"
-          classes={25}
-          students={185}
-          price={560}
-          professor="J. Morgan"
+          title="Python For Data Science"
+          classes={18}
+          students={160}
+          price={432}
+          professor="Alex Taylor"
         ></CourseCard>
       </Box>
     </Box>
