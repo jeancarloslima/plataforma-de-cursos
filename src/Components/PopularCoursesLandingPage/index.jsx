@@ -10,7 +10,9 @@ export default function PopularCoursesLandingPage() {
         display: "flex",
         flexDirection: "column",
         margin: "0 auto",
-        padding: "24px"
+        padding: "24px",
+        bgcolor: "primary.main",
+        color: "secondary.main"
       }}
     >
       <Typography variant="h5" align="center" sx={{ marginBottom: '16px' }}>Nossos cursos populares</Typography>
@@ -19,7 +21,7 @@ export default function PopularCoursesLandingPage() {
         atender as demandas do mercado atual. Mergulhe em conteúdos construídos
         para o sucesso em cada etapa da sua jornada de estudos.
       </Typography>
-      <Box sx={{ display: "flex", flexDirection: "column" }}>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: "24px" }}>
         <CourseCard
           theme="Web Design"
           rating={4.9}
