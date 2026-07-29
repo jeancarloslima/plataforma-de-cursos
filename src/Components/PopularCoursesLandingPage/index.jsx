@@ -21,7 +21,7 @@ export default function PopularCoursesLandingPage() {
         atender as demandas do mercado atual. Mergulhe em conteúdos construídos
         para o sucesso em cada etapa da sua jornada de estudos.
       </Typography>
-      <Box sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: "24px" }}>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: "16px", marginTop: "24px" }}>
         <CourseCard
           theme="Web Design"
           rating={4.9}
