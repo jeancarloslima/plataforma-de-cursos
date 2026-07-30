@@ -12,19 +12,33 @@ export default function PopularCoursesLandingPage() {
         margin: "0 auto",
         padding: "32px 24px",
         bgcolor: "primary.main",
-        color: "secondary.main"
+        color: "secondary.main",
       }}
     >
-      <Typography variant="h5" align="center" sx={{ fontWeight: "600", marginBottom: '16px' }}>Nossos cursos populares</Typography>
+      <Typography
+        variant="h5"
+        align="center"
+        sx={{ fontWeight: "600", marginBottom: "16px" }}
+      >
+        Nossos cursos populares
+      </Typography>
       <Typography variant="body2" align="center">
         Descubra nossos cursos mais procurados, curados de forma cuidadosa para
         atender as demandas do mercado atual. Mergulhe em conteúdos construídos
         para o sucesso em cada etapa da sua jornada de estudos.
       </Typography>
-      <Box sx={{ display: "flex", flexDirection: "column", gap: "16px", marginTop: "24px" }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "16px",
+          marginTop: "24px",
+        }}
+      >
         <CourseCard
           theme="Web Design"
-          rating={4.9}
+          rating="4.9"
           title="Web Design & Development"
           classes={25}
           students={185}
@@ -33,7 +47,7 @@ export default function PopularCoursesLandingPage() {
         ></CourseCard>
         <CourseCard
           theme="UI/UX Design"
-          rating={5}
+          rating="5.0"
           title="Wireframing & Prototyping"
           classes={8}
           students={400}
@@ -42,7 +56,7 @@ export default function PopularCoursesLandingPage() {
         ></CourseCard>
         <CourseCard
           theme="Data Science"
-          rating={4.9}
+          rating="4.9"
           title="Python For Data Science"
           classes={18}
           students={160}
