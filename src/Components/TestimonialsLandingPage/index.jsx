@@ -1,4 +1,5 @@
 import { Box, Typography } from "@mui/material";
+import TestimonialCard from "../TestimonialCard";
 
 export default function TestimonialsLandingPage() {
   return (
@@ -34,7 +35,11 @@ export default function TestimonialsLandingPage() {
           gap: "16px",
           marginTop: "24px",
         }}
-      ></Box>
+      >
+        <TestimonialCard image="" name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+        <TestimonialCard image="" name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+        <TestimonialCard image="" name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+      </Box>
     </Box>
   );
 }
