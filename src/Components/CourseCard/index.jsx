@@ -76,11 +76,11 @@ export default function CourseCard({
         >
           <Box sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
             <Book color="primary" sx={{ fontSize: 20 }} />
-            <Typography variant="body1">{classes} classes</Typography>
+            <Typography variant="body1">{classes} aulas</Typography>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
             <Person color="primary" sx={{ fontSize: 20 }} />
-            <Typography variant="body1">{students} students</Typography>
+            <Typography variant="body1">{students} alunos</Typography>
           </Box>
         </Box>
 
