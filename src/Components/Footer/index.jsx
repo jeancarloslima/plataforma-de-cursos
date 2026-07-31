@@ -35,18 +35,18 @@ export default function Footer() {
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
           Company
         </Typography>
-        <Link href="#" color="secondary" variant="body2" underline="hover">About Us</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Services</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Community</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Testimonials</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Sobre Nós</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Serviços</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Comunidade</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Testemunhos</Link>
       </Box>
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
           Support
         </Typography>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Help Center</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Tweet @ US</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Central de Ajuda</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Tweet @</Link>
         <Link href="#" color="secondary" variant="body2" underline="hover">Webinars</Link>
         <Link href="#" color="secondary" variant="body2" underline="hover">Feedback</Link>
       </Box>
@@ -55,10 +55,10 @@ export default function Footer() {
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
           Links
         </Typography>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Courses</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Become Teacher</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">Service</Link>
-        <Link href="#" color="secondary" variant="body2" underline="hover">All In One</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Cursos</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Seja Professor</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Serviço</Link>
+        <Link href="#" color="secondary" variant="body2" underline="hover">Tudo em um</Link>
       </Box>
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
