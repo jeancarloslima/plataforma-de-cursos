@@ -33,7 +33,7 @@ export default function Footer() {
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
-          Company
+          Companhia
         </Typography>
         <Link href="#" color="secondary" variant="body2" underline="hover">Sobre Nós</Link>
         <Link href="#" color="secondary" variant="body2" underline="hover">Serviços</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
-          Support
+          Suporte
         </Typography>
         <Link href="#" color="secondary" variant="body2" underline="hover">Central de Ajuda</Link>
         <Link href="#" color="secondary" variant="body2" underline="hover">Tweet @</Link>
@@ -63,7 +63,7 @@ export default function Footer() {
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
-          Contact Us
+          Contate-Nos
         </Typography>
         <Link href="#" color="secondary" variant="body2" underline="hover">+55 11 94002-8922</Link>
         <Link href="#" color="secondary" variant="body2" underline="hover">rawiinfo@gmail.com</Link>
