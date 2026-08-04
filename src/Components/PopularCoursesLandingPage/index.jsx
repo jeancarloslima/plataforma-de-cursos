@@ -1,5 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import CourseCard from "../CourseCard";
+import CourseCardImage1 from "../../Assets/images/pexels-coding-1853305.jpg";
+import CourseCardImage2 from "../../Assets/images/firmbee-ux-787968.jpg";
+import CourseCardImage3 from "../../Assets/images/pexels-laptop-1839876.jpg";
 
 export default function PopularCoursesLandingPage() {
   return (
@@ -37,6 +40,7 @@ export default function PopularCoursesLandingPage() {
         }}
       >
         <CourseCard
+          image={CourseCardImage1}
           theme="Web Design"
           rating="4.9"
           title="Web Design & Development"
@@ -46,6 +50,7 @@ export default function PopularCoursesLandingPage() {
           professor="J. Morgan"
         ></CourseCard>
         <CourseCard
+          image={CourseCardImage2}
           theme="UI/UX Design"
           rating="5.0"
           title="Wireframing & Prototyping"
@@ -55,6 +60,7 @@ export default function PopularCoursesLandingPage() {
           professor="Jordan Re"
         ></CourseCard>
         <CourseCard
+          image={CourseCardImage3}
           theme="Data Science"
           rating="4.9"
           title="Python For Data Science"

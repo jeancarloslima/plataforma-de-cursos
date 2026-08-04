@@ -13,7 +13,7 @@ export default function CourseCard({
 }) {
   return (
     <Card sx={{ maxWidth: "330px", width: "100%" }}>
-      <CardMedia component="img" alt={image} />
+      <CardMedia component="img" alt="Imagem demonstrativa do curso" src={image} />
       <CardContent
         sx={{
           padding: 0,
