@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
-import { Person, Star } from "@mui/icons-material";
+import { Star } from "@mui/icons-material";
 
 export default function TestimonialCard({ image, name, job, rating, text }) {
   return (
@@ -9,7 +9,7 @@ export default function TestimonialCard({ image, name, job, rating, text }) {
           padding: 0,
           display: "flex",
           flexDirection: "column",
-          gap: "24px",
+          gap: "12px",
           "&:last-child": {
             paddingBottom: 0,
           },

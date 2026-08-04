@@ -39,9 +39,9 @@ export default function TestimonialsLandingPage() {
           marginTop: "24px",
         }}
       >
-        <TestimonialCard image="" name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
-        <TestimonialCard image="" name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
-        <TestimonialCard image="" name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+        <TestimonialCard image={TestimonialCardImage1} name="James Johnson" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+        <TestimonialCard image={TestimonialCardImage2} name="Emily Chen" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+        <TestimonialCard image={TestimonialCardImage3} name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
       </Box>
     </Box>
   );
