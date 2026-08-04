@@ -84,7 +84,7 @@ export default function CourseCard({
           </Box>
         </Box>
 
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
           <Typography variant="h6" sx={{ fontWeight: "600" }}>
             ${price}.00
           </Typography>

@@ -1,5 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import TestimonialCard from "../TestimonialCard";
+import TestimonialCardImage1 from "../../Assets/images/erik_lucatero-portrait-3353699.jpg";
+import TestimonialCardImage2 from "../../Assets/images/saeedisavy-portrait-7582123.jpg";
+import TestimonialCardImage3 from "../../Assets/images/shimabdinzade-woman-8378634.jpg";
 
 export default function TestimonialsLandingPage() {
   return (
