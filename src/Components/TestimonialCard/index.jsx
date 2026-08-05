@@ -42,11 +42,11 @@ export default function TestimonialCard({ image, name, job, rating, text }) {
             </Typography>
 
             <Typography variant="body2">{job}</Typography>
-            <Star sx={{ fontSize: "15px", color: "yellow" }} />
-            <Star sx={{ fontSize: "15px", color: "yellow" }} />
-            <Star sx={{ fontSize: "15px", color: "yellow" }} />
-            <Star sx={{ fontSize: "15px", color: "yellow" }} />
-            <Star sx={{ fontSize: "15px", color: "yellow" }} />
+            <Star sx={{ fontSize: "13px", color: "yellow" }} />
+            <Star sx={{ fontSize: "13px", color: "yellow" }} />
+            <Star sx={{ fontSize: "13px", color: "yellow" }} />
+            <Star sx={{ fontSize: "13px", color: "yellow" }} />
+            <Star sx={{ fontSize: "13px", color: "yellow" }} />
           </Box>
         </Box>
 
