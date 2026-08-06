@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import estudanteImg from "../../Assets/images/estudante.png";
+import grupoEstudantesImg from "../../Assets/images/grupo-de-estudantes.png";
 import { Book, Person, PlayArrow, School } from "@mui/icons-material";
 
 export default function BenefitsLandingPage() {
@@ -60,7 +61,7 @@ export default function BenefitsLandingPage() {
           gap: "2rem",
         }}
       >
-        <Box component="img" src={estudanteImg}></Box>
+        <Box component="img" src={grupoEstudantesImg}></Box>
         <Box>
           <Typography variant="h5">
             Benefícios do nosso aprendizado online
