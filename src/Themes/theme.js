@@ -4,9 +4,9 @@ let customTheme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#234718",
-      light: "#89d871",
-      dark: "#62df40",
+      main: "#B22030",
+      light: "#e67d89",
+      dark: "#53050e",
       contrastText: "#ffffff",
     },
     secondary: {
