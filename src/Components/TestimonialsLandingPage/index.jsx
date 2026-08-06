@@ -39,7 +39,7 @@ export default function TestimonialsLandingPage() {
           marginTop: "24px",
         }}
       >
-        <TestimonialCard image={TestimonialCardImage1} name="James Johnson" job="Web Developer" rating="5" text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
+        <TestimonialCard image={TestimonialCardImage1} name="James Johnson" job="Web Developer" rating={5} text="Fazer cursos nessa plataforma de e-learning foi um ponto de virada para mim. Experiência absolutamente transformadora!" />
         <TestimonialCard image={TestimonialCardImage2} name="Emily Chen" job="UX/UI Designer" rating="5" text="Cursos excepcionais! Os insights práticos e a estrutura de aprendizado flexível tem sido instrumentos fundamentais do meu crescimento de carreira." />
         <TestimonialCard image={TestimonialCardImage3} name="Alexa Rodriguez" job="UX/UI Designer" rating="5" text="Recomendo demais! O feedback personalizado e a aplicação de exemplos do mundo real nos cursos tem elevado meu entendimento." />
       </Box>

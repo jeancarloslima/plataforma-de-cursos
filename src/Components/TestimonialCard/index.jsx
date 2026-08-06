@@ -1,17 +1,31 @@
-import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
+import {
+  Box,
+  Card,
+  CardContent,
+  CardMedia,
+  Rating,
+  Typography,
+} from "@mui/material";
 import { Star } from "@mui/icons-material";
 
 export default function TestimonialCard({ image, name, job, rating, text }) {
   return (
-    <Card sx={{ maxWidth: "330px", width: "100%", bgcolor: "primary.main", color: "secondary.main" }}>
+    <Card
+      sx={{
+        maxWidth: "330px",
+        width: "100%",
+        bgcolor: "primary.main",
+        color: "secondary.main",
+      }}
+    >
       <CardContent
         sx={{
-          padding: 0,
+          padding: "16px 12px",
           display: "flex",
           flexDirection: "column",
           gap: "12px",
           "&:last-child": {
-            paddingBottom: 0,
+            paddingBottom: "8px",
           },
         }}
       >
@@ -34,19 +48,17 @@ export default function TestimonialCard({ image, name, job, rating, text }) {
           />
 
           <Box>
-            <Typography
-              variant="h6"
-              sx={{ fontWeight: "600" }}
-            >
+            <Typography variant="h6" sx={{ fontWeight: "600" }}>
               {name}
             </Typography>
 
             <Typography variant="body2">{job}</Typography>
-            <Star sx={{ fontSize: "13px", color: "yellow" }} />
-            <Star sx={{ fontSize: "13px", color: "yellow" }} />
-            <Star sx={{ fontSize: "13px", color: "yellow" }} />
-            <Star sx={{ fontSize: "13px", color: "yellow" }} />
-            <Star sx={{ fontSize: "13px", color: "yellow" }} />
+            <Rating
+              value={rating}
+              readOnly
+              icon={<Star sx={{ fontSize: "15px", color: "yellow" }} />}
+              emptyIcon={<Star sx={{ fontSize: "15px", color: "lightgray" }} />}
+            />
           </Box>
         </Box>
 
