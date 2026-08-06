@@ -34,7 +34,7 @@ let customTheme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          padding: "12px 12px 12px 16px",
+          padding: "8px 8px 16px 8px",
           borderRadius: 16,
           boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.05)",
         },
