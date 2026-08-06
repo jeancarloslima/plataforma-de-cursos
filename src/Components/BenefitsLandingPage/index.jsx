@@ -9,7 +9,6 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import estudanteImg from "../../Assets/images/estudante.png";
 import grupoEstudantesImg from "../../Assets/images/grupo-de-estudantes.png";
 import { Book, Person, PlayArrow, School } from "@mui/icons-material";
 
@@ -61,7 +60,9 @@ export default function BenefitsLandingPage() {
           gap: "2rem",
         }}
       >
-        <Box component="img" src={grupoEstudantesImg}></Box>
+        <Box component="img" src={grupoEstudantesImg} sx={{ bgcolor: "primary.main", borderRadius: "16px 24px", border: "3px solid #e67d89" }}>
+
+        </Box>
         <Box>
           <Typography variant="h5">
             Benefícios do nosso aprendizado online

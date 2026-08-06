@@ -27,7 +27,7 @@ export default function Hero() {
       <Box
         sx={{
           maxWidth: { xs: "600px", md: "1000px" },
-          minHeight: "100dvh",
+          minHeight: "calc(100dvh - 360px)",
         }}
       >
         <Box
@@ -73,7 +73,10 @@ export default function Hero() {
               </Box>
             </Box>
           </Box>
-          <Box component="img" src={estudanteImg}></Box>
+          <Box sx={{ position: "relative" }}>
+            <Box sx={{ width: 250, height: 250, padding: "8px", position: "absolute", bgcolor: "primary.main", backgroundClip: "content-box", borderRadius: "50%", top: "20%", left: "50%", transform: 'translateX(-50%)', zIndex: -1, border: "5px dashed #e67d89" }} />
+            <Box component="img" src={estudanteImg} sx={{ width: "100%", height: "100%" }} />
+          </Box>
         </Box>
 
         <List
