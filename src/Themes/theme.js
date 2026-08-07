@@ -27,7 +27,7 @@ let customTheme = createTheme({
         root: {
           borderRadius: 6,
           textTransform: "none",
-          padding: "10px 14px",
+          padding: "10px 14px"
         },
       },
     },

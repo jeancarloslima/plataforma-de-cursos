@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <>
       <AppBar position="sticky" elevation={0}>
-        <Toolbar >
+        <Toolbar sx={{ paddingRight: 0 }}>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: '700' }}>
             Rawi
           </Typography>
@@ -42,7 +42,7 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
 
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ display: { xs: "none", md: "flex" }, }}>
             {itemsMenu.map((text) => (
               <Button key={text} sx={{ color: "#333333" }}>
                 {text}
