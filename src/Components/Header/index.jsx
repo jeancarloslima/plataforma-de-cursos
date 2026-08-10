@@ -21,7 +21,7 @@ export default function Header() {
     setMenuIsOpen(action);
   };
 
-  const itemsMenu = ["Cursos", "Preços", "Comunidade"];
+  const itemsMenu = ["Cursos", "Cursos Populares", "Testemunhos"];
 
   return (
     <>
