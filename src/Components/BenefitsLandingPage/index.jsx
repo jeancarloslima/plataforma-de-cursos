@@ -20,6 +20,7 @@ export default function BenefitsLandingPage() {
         minHeight: "100dvh",
         display: "flex",
         flexDirection: "column",
+        justifyContent: "center",
         margin: "0 auto",
         padding: "24px",
       }}
@@ -31,6 +32,7 @@ export default function BenefitsLandingPage() {
           justifyContent: "center",
           gap: "1rem",
           py: 2,
+          pb: { md: 6 }
         }}
       >
         <Typography variant="h5" align="center">
