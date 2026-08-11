@@ -3,7 +3,7 @@ import BenefitsLandingPage from "../../Components/BenefitsLandingPage";
 import Header from "../../Components/Header";
 import Hero from "../../Components/Hero";
 import customTheme from "../../Themes/theme";
-import { CssBaseline } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
 import PopularCoursesLandingPage from "../../Components/PopularCoursesLandingPage";
 import TestimonialsLandingPage from "../../Components/TestimonialsLandingPage";
 import Footer from "../../Components/Footer";

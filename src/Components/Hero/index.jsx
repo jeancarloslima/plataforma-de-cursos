@@ -26,12 +26,13 @@ export default function Hero() {
 
       <Box
         sx={{
-          maxWidth: { xs: "600px", md: "1000px" },
+          
           minHeight: "calc(100dvh - 360px)",
         }}
       >
         <Box
           sx={{
+            maxWidth: { xs: "600px", md: "1000px" },
             display: "flex",
             flexDirection: "column",
             margin: "0 auto",
@@ -42,6 +43,7 @@ export default function Hero() {
             sx={{
               display: "flex",
               flexDirection: "column",
+              alignItems: "center",
               gap: "1.5rem",
             }}
           >
@@ -60,7 +62,7 @@ export default function Hero() {
               experiências de aprendizado e eleve seu conhecimento de formas
               únicas.
             </Typography>
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            <Box sx={{ width: "100%", maxWidth: 350, display: "flex", flexDirection: "row-reverse", justifyContent: "space-between" }}>
               <Button variant="contained">Começar agora</Button>
               <Box
                 component={Link}
@@ -74,7 +76,7 @@ export default function Hero() {
             </Box>
           </Box>
           <Box sx={{ position: "relative" }}>
-            <Box sx={{ width: 250, height: 250, padding: "8px", position: "absolute", bgcolor: "primary.main", backgroundClip: "content-box", borderRadius: "50%", top: "20%", left: "50%", transform: 'translateX(-50%)', zIndex: -1, border: "5px dashed #e67d89" }} />
+            <Box sx={{ width: "80%", height: "80%", padding: "8px", position: "absolute", bgcolor: "primary.main", backgroundClip: "content-box", borderRadius: "50%", top: "20%", left: "50%", transform: 'translateX(-50%)', zIndex: -1, border: "5px dashed #e67d89" }} />
             <Box component="img" src={estudanteImg} sx={{ width: "100%", height: "100%" }} />
           </Box>
         </Box>
