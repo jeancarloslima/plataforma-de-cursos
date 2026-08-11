@@ -52,15 +52,17 @@ export default function BenefitsLandingPage() {
           <Button variant="contained">Procurar</Button>
         </Box>
       </Box>
+
       <Box
         sx={{
           width: "100%",
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
+          alignItems: "center",
           gap: "2rem",
         }}
       >
-        <Box component="img" src={grupoEstudantesImg} sx={{ bgcolor: "primary.main", borderRadius: "16px 24px", border: "3px solid #e67d89" }}>
+        <Box component="img" src={grupoEstudantesImg} sx={{ width: "100%", maxWidth: 400, bgcolor: "primary.main", borderRadius: "16px 24px", border: "3px solid #e67d89" }}>
 
         </Box>
         <Box>
