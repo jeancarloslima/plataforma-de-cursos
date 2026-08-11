@@ -62,7 +62,18 @@ export default function TestimonialCard({ image, name, job, rating, text }) {
           </Box>
         </Box>
 
-        <Typography variant="body2">{text}</Typography>
+        <Typography
+          variant="body2"
+          sx={{
+            display: "-webkit-box",
+            WebkitLineClamp: 3,
+            WebkitBoxOrient: "vertical",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+          }}
+        >
+          {text}
+        </Typography>
       </CardContent>
     </Card>
   );
