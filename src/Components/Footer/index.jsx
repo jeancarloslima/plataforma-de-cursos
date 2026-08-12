@@ -7,10 +7,10 @@ export default function Footer() {
       sx={{
         display: "flex",
         flexDirection: "column",
+        alignItems: { md: "center" },
         gap: 4,
         margin: "0 auto",
         padding: "48px 24px",
-        pl: { sm: "50px" },
         bgcolor: "primary.main",
         color: "secondary.main",
       }}
