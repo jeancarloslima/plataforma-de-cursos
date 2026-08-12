@@ -32,7 +32,8 @@ export default function Hero() {
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
             margin: "0 auto",
-            padding: "24px 32px 0 32px",
+            padding: "32px 32px 0 32px",
+            paddingTop: {md: "100px"}
           }}
         >
           <Box
