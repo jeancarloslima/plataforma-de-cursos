@@ -25,33 +25,41 @@ export default function Header() {
 
   return (
     <>
-      <AppBar position="sticky" elevation={0}>
-        <Toolbar sx={{ paddingRight: 0 }}>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: '700' }}>
-            Rawi
-          </Typography>
-
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            onClick={() => toggleMenu(true)}
-            sx={{ mr: 2, display: { xs: "flex", md: "none" } }}
+      <AppBar
+        position="sticky"
+        elevation={0}
+        sx={{ display: "flex" }}
+      >
+        <Box sx={{ width: "100%", maxWidth: "1200px", margin: "0 auto" }}>
+          <Toolbar
+            sx={{ justifyContent: { md: "space-between" }, paddingRight: 0 }}
           >
-            <MenuIcon />
-          </IconButton>
+            <Typography variant="h6" component="div" sx={{ fontWeight: "700" }}>
+              Rawi
+            </Typography>
 
-          <Box sx={{ display: { xs: "none", md: "flex" }, }}>
-            {itemsMenu.map((text) => (
-              <Button key={text} sx={{ color: "#333333" }}>
-                {text}
-              </Button>
-            ))}
-            <Button sx={{ color: "#333333" }}>Login</Button>
-            <Button sx={{ color: "#333333" }}>Register</Button>
-          </Box>
-        </Toolbar>
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              onClick={() => toggleMenu(true)}
+              sx={{ mr: 2, display: { xs: "flex", md: "none" } }}
+            >
+              <MenuIcon />
+            </IconButton>
+
+            <Box sx={{ display: { xs: "none", md: "flex" } }}>
+              {itemsMenu.map((text) => (
+                <Button key={text} sx={{ color: "#333333" }}>
+                  {text}
+                </Button>
+              ))}
+              <Button sx={{ color: "#333333" }}>Login</Button>
+              <Button sx={{ color: "#333333" }}>Register</Button>
+            </Box>
+          </Toolbar>
+        </Box>
       </AppBar>
 
       <Drawer
@@ -69,7 +77,12 @@ export default function Header() {
             {itemsMenu.map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
-                  <ListItemText primary={text} slotProps={{ primary: { color: "primary", sx: { fontWeight: '700' } } } } />
+                  <ListItemText
+                    primary={text}
+                    slotProps={{
+                      primary: { color: "primary", sx: { fontWeight: "700" } },
+                    }}
+                  />
                 </ListItemButton>
               </ListItem>
             ))}
