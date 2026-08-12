@@ -34,7 +34,7 @@ export default function Header() {
           <Toolbar
             sx={{ justifyContent: { md: "space-between" }, paddingRight: 0 }}
           >
-            <Typography variant="h6" component="div" sx={{ fontWeight: "700" }}>
+            <Typography variant="h6" component="div" sx={{ flexGrow: {xs: 1}, fontWeight: "700" }}>
               Rawi
             </Typography>
 
